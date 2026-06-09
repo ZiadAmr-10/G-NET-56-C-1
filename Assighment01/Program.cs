@@ -11,12 +11,12 @@
             ////
             //// Q: What is the purpose of #region and #endregion directives in C#? 
             ////    How do they help in code organization?
+            ///   it's used to organize and group code into collapsible sections, making large code files easier to read and navigate.
+                // This helps improve code organization and readability.
             ////
-            //// ══════════════════════════════════════════════════════════════════════
-
+            // ══════════════════════════════════════════════════════════════════════
             ////Nested Region Example
-
-            //Console.WriteLine("\n" + new string('-', 70) + "\n");
+           // Console.WriteLine("\n" + new string('-', 70) + "\n");
             #endregion
         }
 
