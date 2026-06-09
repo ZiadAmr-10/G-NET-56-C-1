@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.ComponentModel;
+using System.Drawing;
 using System.Reflection.Metadata;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -273,23 +274,46 @@ namespace Assighment01
             ////1- Value Types:
             //These include any type under struct or enum such as:
             //int, bool, decimal, float, char.
-             //These are stored in the Stack.
-             //2- Reference Types:
-             //These include any type under class or interface such as:
-             //delegate, object, string, array.
-             //These are stored partly in the Stack and partly in the Heap.
-             //The object data is stored in the Heap, while the reference is stored in the Stack .
-             //Stack Characteristics:
-             //- Very Fast
-             //- Auto Cleanup
-             //- Fixed Size
-             //- Short Lived
-             //- Uses LIFO (Last In First Out)-.>Organize
-             //Heap Characteristics:
-             //- Large Size
-             //-GC Managed
-             //- Slower
-             //- Long Lived
+            //These are stored in the Stack.
+            //2- Reference Types:
+            //These include any type under class or interface such as:
+            //delegate, object, string, array.
+            //These are stored partly in the Stack and partly in the Heap.
+            //The object data is stored in the Heap, while the reference is stored in the Stack .
+            //Stack Characteristics:
+            //- Very Fast
+            //- Auto Cleanup
+            //- Fixed Size
+            //- Short Lived
+            //- Uses LIFO (Last In First Out)-.>Organize
+            //Heap Characteristics:
+            //- Large Size
+            //-GC Managed
+            //- Slower
+            //- Long Lived
+            //// ══════════════════════════════════════════════════════════════════════
+            #endregion
+            #region Question 18: Value Types vs Reference Types
+            //// ══════════════════════════════════════════════════════════════════════
+            //// QUESTION 18: VALUE TYPES VS REFERENCE TYPES
+            //// ══════════════════════════════════════════════════════════════════════
+            ////
+            //// Q: Write a code example showing how value types and reference types 
+            ////    behave differently when assigned to another variable.
+            ////Value Type
+            //int x = 10; 
+            //int y = x; ->The same Value
+            //Console.WriteLine(y); // 10
+            //y = 20;
+            //Console.WriteLine(x); // 10
+            //Console.WriteLine(y); // 20
+            //Reference Type;
+            //Point p1 = new Point();
+            //p1.X = 10;
+            //Point p2 = p1; // p2 refers to the same object as p1 in the heap.
+            //p2.X = 50;
+            //Console.WriteLine(p1.X); // 50
+            //Console.WriteLine(p2.X); // 50
             //// ══════════════════════════════════════════════════════════════════════
             #endregion
         }
