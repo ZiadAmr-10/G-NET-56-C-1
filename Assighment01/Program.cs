@@ -1,5 +1,7 @@
-﻿using System.ComponentModel;
+﻿using System.Collections;
+using System.ComponentModel;
 using System.Reflection.Metadata;
+using System.Runtime.InteropServices;
 using System.Text;
 using static System.Formats.Asn1.AsnWriter;
 using static System.Net.WebRequestMethods;
@@ -260,6 +262,34 @@ namespace Assighment01
             //// Q: What is the difference between 'throw' and 'throw ex' when 
             ////    re-throwing an exception? Which one preserves the stack trace?
             ////throw preserves the original stack trace and error location,throw ex resets the stack trace and loses the original error location.
+            //// ══════════════════════════════════════════════════════════════════════
+            #endregion
+            #region Question 17: Stack and Heap Memory
+            //// ══════════════════════════════════════════════════════════════════════
+            //// QUESTION 17: STACK AND HEAP MEMORY
+            //// ══════════════════════════════════════════════════════════════════════
+            //// Q: Explain the differences between Stack and Heap memory in C#. 
+            ////    What types of data are stored in each?
+            ////1- Value Types:
+            //These include any type under struct or enum such as:
+            //int, bool, decimal, float, char.
+             //These are stored in the Stack.
+             //2- Reference Types:
+             //These include any type under class or interface such as:
+             //delegate, object, string, array.
+             //These are stored partly in the Stack and partly in the Heap.
+             //The object data is stored in the Heap, while the reference is stored in the Stack .
+             //Stack Characteristics:
+             //- Very Fast
+             //- Auto Cleanup
+             //- Fixed Size
+             //- Short Lived
+             //- Uses LIFO (Last In First Out)-.>Organize
+             //Heap Characteristics:
+             //- Large Size
+             //-GC Managed
+             //- Slower
+             //- Long Lived
             //// ══════════════════════════════════════════════════════════════════════
             #endregion
         }
