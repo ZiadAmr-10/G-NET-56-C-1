@@ -133,7 +133,18 @@ namespace Assighment01
             //but its not allow redeclaring variables in the same method scope.
             //// ══════════════════════════════════════════════════════════════════════
             #endregion
-
+            #region Question 9: C# Naming Rules
+           //// ══════════════════════════════════════════════════════════════════════
+           //// QUESTION 9: C# NAMING RULES
+           //// ══════════════════════════════════════════════════════════════════════
+           //// Q: List five rules that must be followed when naming variables in C#.
+           //1-Variable names must start with a letter or underscore (_).
+           // 2-Names can contain letters, digits, and underscores, but no spaces.
+           // 3-C# is case sensitive (name and Name are different).
+           // 4-Keywords cannot be used as variable names unless you use @.
+           // 5-Names should be meaningful and follow naming conventions(camelCase for variables, PascalCase for classes).
+           // ══════════════════════════════════════════════════════════════════════
+            #endregion
         }
 
     } 
