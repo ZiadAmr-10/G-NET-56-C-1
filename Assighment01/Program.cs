@@ -79,6 +79,28 @@ namespace Assighment01
 
 
             #endregion
+            #region Question 5: Block-level Scope
+            //// ══════════════════════════════════════════════════════════════════════
+            //// QUESTION 5: BLOCK-LEVEL SCOPE
+            //// ══════════════════════════════════════════════════════════════════════
+            ////
+            //// Q: What is block-level scope? Give an example showing a variable that 
+            ////    is only accessible within a specific block.
+            //Block - level scope means that a variable is only accessible within the block { }
+            //such as if ,for, ...
+            //Example :
+            // class Student
+            //     {
+            //void PrintAge()
+            //{
+            //    if (true)
+            //    {
+            //        int age = 20;
+            //        Console.WriteLine(age);
+            //    }
+            //}
+        //// ══════════════════════════════════════════════════════════════════════
+            #endregion
     }
 
     } 
