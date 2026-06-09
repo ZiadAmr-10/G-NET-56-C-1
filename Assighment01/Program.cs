@@ -240,6 +240,19 @@ namespace Assighment01
             //File.Open(null, FileMode.Open);
             //// ══════════════════════════════════════════════════════════════════════
             #endregion
+            #region Question 15: Multiple catch Blocks
+            //// ══════════════════════════════════════════════════════════════════════
+            //// QUESTION 15: MULTIPLE CATCH BLOCKS
+            //// ══════════════════════════════════════════════════════════════════════
+            //// Q: Why is the order of catch blocks important when handling multiple 
+            ////    exceptions? Write code showing correct ordering.
+            ////use multiple catch blocks to handle different exception types differently. Always place more specific catches before general ones
+            //        catch (Exception ex) when(ex is FormatException or OverflowException)
+            //     {
+            //    Console.WriteLine("Invalid number input!");
+            //}
+            //// ══════════════════════════════════════════════════════════════════════
+            #endregion
         }
 
     } 
