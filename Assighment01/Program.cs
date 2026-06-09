@@ -1,5 +1,8 @@
 ﻿using System.ComponentModel;
+using System.Reflection.Metadata;
+using System.Text;
 using static System.Formats.Asn1.AsnWriter;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assighment01
 {
@@ -157,7 +160,22 @@ namespace Assighment01
             //Constants : PascalCase int MaxUsers or All Capital MAX_USERS ->UPPER_CASE
             //// ══════════════════════════════════════════════════════════════════════
             #endregion
-
+            #region Question 11: Error Types
+            //// ══════════════════════════════════════════════════════════════════════
+            //// QUESTION 11: ERROR TYPES
+            //// ══════════════════════════════════════════════════════════════════════
+            //// Q: Compare and contrast syntax errors, runtime errors, and logical 
+            ////    errors. Provide an example of each.
+            ////Syntax Errors : These are errors in the code structure or syntax ,They are detected by the compiler, so the program will not run until they are fixed 
+            //Example: int x = "10";
+            //Runtime Errors(Exceptions) : Happen while program is running , Crash the program if not handled
+            //Example : int x = 10 / 0; - string s = null;
+            //Logical Errors : No compiler error, no exception, Program runs but wrong result
+            //Example: // Calculate average of 3 numbers
+            //int sum = 10 + 20 + 30;
+            //int avg = sum / 2;  // ❌ Should be /3
+            //// ══════════════════════════════════════════════════════════════════════
+            #endregion
 
         }
 
