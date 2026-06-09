@@ -121,8 +121,18 @@ namespace Assighment01
             ////    lifetime of objects?
             ////The Garbage Collector manages memory in the heap. It cleans and removes objects from the heap that have no reference in the stack and in the program
             //// ══════════════════════════════════════════════════════════════════════
-
-
+            #endregion
+            #region Question 8: Variable Shadowing
+            //// ══════════════════════════════════════════════════════════════════════
+            //// QUESTION 8: VARIABLE SHADOWING
+            //// ══════════════════════════════════════════════════════════════════════
+            //// Q: What is variable shadowing in C#? Does C# allow shadowing in 
+            ////    nested blocks within the same method?
+            ////Shadowing occurs when a variable declared in an inner scope has the same name as one in an outer scope. 
+            //C# allows shadowing in some cases, such as method parameters hiding class fields,
+            //but its not allow redeclaring variables in the same method scope.
+            //// ══════════════════════════════════════════════════════════════════════
+            #endregion
 
         }
 
