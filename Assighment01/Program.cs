@@ -189,6 +189,27 @@ namespace Assighment01
             //Example : int x = 10 / 0;
             //// ══════════════════════════════════════════════════════════════════════
             #endregion
+            #region Question 13: try-catch-finally
+            //// ══════════════════════════════════════════════════════════════════════
+            //// QUESTION 13: TRY-CATCH-FINALLY
+            //// ══════════════════════════════════════════════════════════════════════
+            //// Q: Write a code example demonstrating try-catch-finally. Explain when 
+            ////    the finally block executes.
+            ///try
+            //{
+            //    int x = int.Parse("abc");
+            //}
+            // catch (Exception ex)
+            //{
+            //    Console.WriteLine(ex.Message);
+            //}
+            // finally
+            // {
+            //    Console.WriteLine("Done");
+            //}
+            //The finally block always executes at the end, whether an exception happens or not
+            //// ══════════════════════════════════════════════════════════════════════
+            #endregion
         }
 
     } 
