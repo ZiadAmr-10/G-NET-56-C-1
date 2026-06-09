@@ -210,6 +210,36 @@ namespace Assighment01
             //The finally block always executes at the end, whether an exception happens or not
             //// ══════════════════════════════════════════════════════════════════════
             #endregion
+            #region Question 14: Common Built-in Exceptions
+            //// ══════════════════════════════════════════════════════════════════════
+            //// QUESTION 14: COMMON BUILT-IN EXCEPTIONS
+            //// ══════════════════════════════════════════════════════════════════════
+            //// Q: List and explain five common built-in exceptions in C# with 
+            ////    scenarios when each would occur.
+            // 1 - NullReferenceException:
+            //Occurs when you try to use an object that is null.
+            //Example:
+            //string s = null;
+            //Console.WriteLine(s.Length);
+            // 2 - FormatException:
+            //Occurs when converting a string with an invalid format.
+            //Example:
+            //int x = int.Parse("abc");
+            //3 - DivideByZeroException:
+            //Occurs when dividing a number by zero.
+            //Example:
+            //int x = 10 / 0;
+            //4 - IndexOutOfRangeException:
+            //Occurs when accessing an invalid index in an array.
+            //Example:
+            //int[] arr = { 1 };
+            //Console.WriteLine(arr[5]);
+            //5 - ArgumentNullException:
+            //Occurs when a method receives a null argument.
+            //Example:
+            //File.Open(null, FileMode.Open);
+            //// ══════════════════════════════════════════════════════════════════════
+            #endregion
         }
 
     } 
