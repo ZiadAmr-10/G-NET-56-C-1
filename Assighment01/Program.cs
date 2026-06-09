@@ -99,9 +99,20 @@ namespace Assighment01
             //        Console.WriteLine(age);
             //    }
             //}
-        //// ══════════════════════════════════════════════════════════════════════
+            //// ══════════════════════════════════════════════════════════════════════
             #endregion
-    }
+            #region Question 6: Variable Lifetime - Local vs Static
+            //// ══════════════════════════════════════════════════════════════════════
+            //// QUESTION 6: VARIABLE LIFETIME - LOCAL VS STATIC
+            //// ══════════════════════════════════════════════════════════════════════
+            //// Q: What is variable lifetime? Explain the lifetime of local variables 
+            ////    vs static variables.
+            //// Variable lifetime means the  time of a variable  in memory.
+           // Local variables are declared inside a method and created when the method is called, they are destroyed when the method finishes execution
+           //Static variables are declared once and exist for the lifetime of the program.They keep their value between method calls.
+            //// ══════════════════════════════════════════════════════════════════════
+            #endregion
+        }
 
     } 
 }
