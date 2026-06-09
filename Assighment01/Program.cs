@@ -108,10 +108,22 @@ namespace Assighment01
             //// Q: What is variable lifetime? Explain the lifetime of local variables 
             ////    vs static variables.
             //// Variable lifetime means the  time of a variable  in memory.
-           // Local variables are declared inside a method and created when the method is called, they are destroyed when the method finishes execution
-           //Static variables are declared once and exist for the lifetime of the program.They keep their value between method calls.
+            // Local variables are declared inside a method and created when the method is called, they are destroyed when the method finishes execution
+            //Static variables are declared once and exist for the lifetime of the program.They keep their value between method calls.
             //// ══════════════════════════════════════════════════════════════════════
             #endregion
+            #region Question 7: Garbage Collector
+            //// ══════════════════════════════════════════════════════════════════════
+            //// QUESTION 7: GARBAGE COLLECTOR
+            //// ══════════════════════════════════════════════════════════════════════
+            ////
+            //// Q: What is the Garbage Collector in C#? How does it affect the 
+            ////    lifetime of objects?
+            ////The Garbage Collector manages memory in the heap. It cleans and removes objects from the heap that have no reference in the stack and in the program
+            //// ══════════════════════════════════════════════════════════════════════
+
+
+
         }
 
     } 
