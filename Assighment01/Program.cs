@@ -2,6 +2,7 @@
 using System.Reflection.Metadata;
 using System.Text;
 using static System.Formats.Asn1.AsnWriter;
+using static System.Net.WebRequestMethods;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assighment01
@@ -176,7 +177,18 @@ namespace Assighment01
             //int avg = sum / 2;  // ❌ Should be /3
             //// ══════════════════════════════════════════════════════════════════════
             #endregion
-
+            #region Question 12: Exception Handling Importance
+            //// ══════════════════════════════════════════════════════════════════════
+            //// QUESTION 12: EXCEPTION HANDLING IMPORTANCE
+            //// ══════════════════════════════════════════════════════════════════════
+            //// Q: Why is exception handling important in C#? What would happen if 
+            ////    you don't handle exceptions?
+            ///Exception handling is important because it prevents the application from crashing and allows the program to handle runtime errors in a controlled way.
+            ////its Prevent application crash-Show user-friendly messages-Log details for debugging-Guarantee cleanup(files, DB connections)
+            ///If exceptions are not handled, the program may crash unexpectedly and stop execution
+            //Example : int x = 10 / 0;
+            //// ══════════════════════════════════════════════════════════════════════
+            #endregion
         }
 
     } 
