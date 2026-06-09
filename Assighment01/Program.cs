@@ -134,17 +134,31 @@ namespace Assighment01
             //// ══════════════════════════════════════════════════════════════════════
             #endregion
             #region Question 9: C# Naming Rules
-           //// ══════════════════════════════════════════════════════════════════════
-           //// QUESTION 9: C# NAMING RULES
-           //// ══════════════════════════════════════════════════════════════════════
-           //// Q: List five rules that must be followed when naming variables in C#.
-           //1-Variable names must start with a letter or underscore (_).
-           // 2-Names can contain letters, digits, and underscores, but no spaces.
-           // 3-C# is case sensitive (name and Name are different).
-           // 4-Keywords cannot be used as variable names unless you use @.
-           // 5-Names should be meaningful and follow naming conventions(camelCase for variables, PascalCase for classes).
-           // ══════════════════════════════════════════════════════════════════════
+            //// ══════════════════════════════════════════════════════════════════════
+            //// QUESTION 9: C# NAMING RULES
+            //// ══════════════════════════════════════════════════════════════════════
+            //// Q: List five rules that must be followed when naming variables in C#.
+            //1-Variable names must start with a letter or underscore (_).
+            // 2-Names can contain letters, digits, and underscores, but no spaces.
+            // 3-C# is case sensitive (name and Name are different).
+            // 4-Keywords cannot be used as variable names unless you use @.
+            // 5-Names should be meaningful and follow naming conventions(camelCase for variables, PascalCase for classes).
+            // ══════════════════════════════════════════════════════════════════════
             #endregion
+            #region Question 10: Naming Conventions
+            //// ══════════════════════════════════════════════════════════════════════
+            //// QUESTION 10: NAMING CONVENTIONS
+            //// ══════════════════════════════════════════════════════════════════════
+            ////
+            //// Q: What naming conventions are recommended for: (a) local variables, 
+            ////    (b) class names, (c) constants?
+            ////Local variables : camelCase : int userAge 
+            ///Class names : PascalCase:  class Student { }      
+            //Constants : PascalCase int MaxUsers or All Capital MAX_USERS ->UPPER_CASE
+            //// ══════════════════════════════════════════════════════════════════════
+            #endregion
+
+
         }
 
     } 
