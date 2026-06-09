@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Reflection.Metadata;
 using System.Runtime.InteropServices;
 using System.Text;
+using System.Xml.Linq;
 using static System.Formats.Asn1.AsnWriter;
 using static System.Net.WebRequestMethods;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -314,6 +315,24 @@ namespace Assighment01
             //p2.X = 50;
             //Console.WriteLine(p1.X); // 50
             //Console.WriteLine(p2.X); // 50
+            //// ══════════════════════════════════════════════════════════════════════
+            #endregion
+            #region Question 19: Object in C#
+            //// ══════════════════════════════════════════════════════════════════════
+            //// QUESTION 19: OBJECT IN C#
+            //// ══════════════════════════════════════════════════════════════════════
+            //// Q: Why is 'object' considered the base type of all types in C#? 
+            ////    What methods does every type inherit from System.Object?
+            ////object is considered the base type of all types in C# because every type in C# (value types and reference types) inherits from System.Object. 
+            //It allows different types to be treated in a unified way, especially before Generics were introduced.
+            //Methods
+            //ToString() → converts object to string representation
+            //
+            //Equals() → compares two objects
+            //
+            //GetHashCode() → returns a hash code for the object
+            //
+            //GetType() → returns the runtime type of the object
             //// ══════════════════════════════════════════════════════════════════════
             #endregion
         }
