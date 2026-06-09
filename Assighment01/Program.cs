@@ -1,4 +1,7 @@
-﻿namespace Assighment01
+﻿using System.ComponentModel;
+using static System.Formats.Asn1.AsnWriter;
+
+namespace Assighment01
 {
     internal class Program
     {
@@ -49,10 +52,34 @@
             ////    a constant instead of a regular variable? 
             ////using constant when we want the value cannot be changed like mathematical values 
             // const double PI = 3.14159;
-           //// ══════════════════════════════════════════════════════════════════════
+            //// ══════════════════════════════════════════════════════════════════════
             #endregion
+            #region Question 4: Class-level vs Method-level Scope
+            //// ══════════════════════════════════════════════════════════════════════
+            //// QUESTION 4: CLASS-LEVEL VS METHOD-LEVEL SCOPE
+            //// ══════════════════════════════════════════════════════════════════════
+            //// Q: Explain the difference between class-level scope and method-level 
+            ////    scope with examples.
+            //Class - level scope variables declare inside the class can be access by all methods within the class.
+            //Method-level scope variables declare inside a method can only access within that method.
+            //   class Student
+            //  {
+            //   string name = "Ali";  // Class-level scope
+            //    void PrintName()
+            //    {
+            //        Console.WriteLine(name);
+            //    }
+            //    void Age()
+            //    {
+            //        int age = 20; // Method-level scope
+            //        Console.WriteLine(age);
+            //    }
+            //}
+            //// ══════════════════════════════════════════════════════════════════════
 
-        }
+
+            #endregion
+    }
 
     } 
 }
