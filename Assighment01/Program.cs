@@ -40,7 +40,17 @@
 
 
             #endregion
-
+            #region Question 3: Constants
+            //// ══════════════════════════════════════════════════════════════════════
+            //// QUESTION 4: CONSTANTS
+            //// ══════════════════════════════════════════════════════════════════════
+            ////
+            //// Q: Write the syntax for declaring a constant in C#. Why would you use 
+            ////    a constant instead of a regular variable? 
+            ////using constant when we want the value cannot be changed like mathematical values 
+            // const double PI = 3.14159;
+           //// ══════════════════════════════════════════════════════════════════════
+            #endregion
 
         }
 
