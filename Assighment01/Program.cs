@@ -253,6 +253,15 @@ namespace Assighment01
             //}
             //// ══════════════════════════════════════════════════════════════════════
             #endregion
+            #region Question 16: throw Keyword
+            //// ══════════════════════════════════════════════════════════════════════
+            //// QUESTION 16: THROW KEYWORD
+            //// ══════════════════════════════════════════════════════════════════════
+            //// Q: What is the difference between 'throw' and 'throw ex' when 
+            ////    re-throwing an exception? Which one preserves the stack trace?
+            ////throw preserves the original stack trace and error location,throw ex resets the stack trace and loses the original error location.
+            //// ══════════════════════════════════════════════════════════════════════
+            #endregion
         }
 
     } 
